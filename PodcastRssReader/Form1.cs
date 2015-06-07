@@ -31,5 +31,10 @@ namespace PodcastRssReader
             downloadPodcast1.PopulatePodcastList();
         }
 
+        private void editPodcastToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

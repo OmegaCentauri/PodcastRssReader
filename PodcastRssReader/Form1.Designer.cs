@@ -35,6 +35,7 @@
             this.downloadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.downloadPodcast1 = new PodcastRssReader.DownloadPodcast();
             this.addPodcast1 = new PodcastRssReader.AddPodcast();
+            this.editPodcastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +53,7 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addToolStripMenuItem,
+            this.editPodcastToolStripMenuItem,
             this.downloadToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -61,7 +63,7 @@
             // 
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
             this.addToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.addToolStripMenuItem.Text = "Add";
+            this.addToolStripMenuItem.Text = "Add Podcast";
             this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // downloadToolStripMenuItem
@@ -85,6 +87,13 @@
             this.addPodcast1.Size = new System.Drawing.Size(1225, 600);
             this.addPodcast1.TabIndex = 9;
             this.addPodcast1.Visible = false;
+            // 
+            // editPodcastToolStripMenuItem
+            // 
+            this.editPodcastToolStripMenuItem.Name = "editPodcastToolStripMenuItem";
+            this.editPodcastToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.editPodcastToolStripMenuItem.Text = "Edit Podcast";
+            this.editPodcastToolStripMenuItem.Click += new System.EventHandler(this.editPodcastToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -113,6 +122,7 @@
         private System.Windows.Forms.ToolStripMenuItem downloadToolStripMenuItem;
         private AddPodcast addPodcast1;
         private DownloadPodcast downloadPodcast1;
+        private System.Windows.Forms.ToolStripMenuItem editPodcastToolStripMenuItem;
     }
 }
 
